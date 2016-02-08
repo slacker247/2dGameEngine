@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Player1</Name>
+	<X_Position>10</X_Position>
+	<Y_Position>133</Y_Position>
+	<Z_Position>20</Z_Position>
+	<Width>10</Width>
+	<Height>17</Height>
+	<Default_Action>Standing</Default_Action>
+
+	<Asset>
+		<URL>./Assets/Level_1/Player/Frames.xml</URL>
+	</Asset>
+
+	<Actions>
+		<Action>
+			<Name>Standing</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>1</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+		<Action>
+			<Name>FlipSwitch</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>1</End_Frame>
+			<Trigger>5</Trigger>
+		</Action>
+		<Action>
+			<Name>WalkLeft</Name>
+			<Start_Frame>11</Start_Frame>
+			<End_Frame>20</End_Frame>
+			<Trigger>4</Trigger>
+		</Action>
+		<Action>
+			<Name>WalkRight</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>10</End_Frame>
+			<Trigger>6</Trigger>
+		</Action>
+		<Action>
+			<Name>WalkUp</Name>
+			<Start_Frame>21</Start_Frame>
+			<End_Frame>30</End_Frame>
+			<Trigger>2</Trigger>
+		</Action>
+		<Action>
+			<Name>WalkDown</Name>
+			<Start_Frame>21</Start_Frame>
+			<End_Frame>30</End_Frame>
+			<Trigger>8</Trigger>
+		</Action>
+	</Actions>
+
+	<HitBoxes>
+		<HitBox>
+			<Name>Player</Name>
+			<x>0</x>
+			<y>0</y>
+			<Height>0</Height>
+			<Width>0</Width>
+		</HitBox>
+	</HitBoxes>
+</data>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Score1</Name>
+	<X_Position>12</X_Position>
+	<Y_Position>15</Y_Position>
+	<Z_Position>510</Z_Position>
+	<Width>40</Width>
+	<Height>10</Height>
+	<Default_Action></Default_Action>
+
+	<Assets>
+	</Assets>
+
+	<Drawables>
+		<Draw>
+			<Name>Score</Name>
+			<String>0</String>
+			<Color>255:255:255</Color>
+			<X_Position>1</X_Position>
+			<Y_Position>7</Y_Position>
+			<Z_Position>1</Z_Position>
+			<Font>
+				<Name>Monospaced</Name>
+				<!-- Styles available
+				     PLAIN, BOLD, ITALIC -->
+				<Style>PLAIN</Style>
+				<Size>9</Size>
+			</Font>
+		</Draw>
+	</Drawables>
+
+	<Actions>
+	</Actions>
+</data>

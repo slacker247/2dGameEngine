@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Ladder7</Name>
+	<X_Position>112</X_Position>
+	<Y_Position>83</Y_Position>
+	<Z_Position>1100</Z_Position>
+	<Width>10</Width>
+	<Height>37</Height>
+
+	<HitBoxes>
+		<HitBox>
+			<Name>Ladder</Name>
+			<x>1</x>
+			<y>1</y>
+			<Height>-1</Height>
+			<Width>-1</Width>
+		</HitBox>
+	</HitBoxes>
+</data>

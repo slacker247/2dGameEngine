@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<return_action>ESCAPE</return_action>
+
+	<Name>MenuScreen</Name>
+	<X_Position>0</X_Position>
+	<Y_Position>0</Y_Position>
+	<Z_Position>800</Z_Position>
+	<Width>128</Width>
+	<Height>160</Height>
+	<Default_Action>Menu</Default_Action>
+	
+	<Asset>
+		<URL>./Assets/Menu/Frames.xml</URL>
+		<URL>./Assets/Menu/Button/Frames.xml</URL>
+	</Asset>
+
+	<Actions>
+		<Action>
+			<Name>Menu</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>20</End_Frame>
+			<Trigger>7</Trigger>
+		</Action>
+
+		<Action>
+			<Name>Controls</Name>
+			<Start_Frame>20</Start_Frame>
+			<End_Frame>40</End_Frame>
+
+			<Trigger>5</Trigger>
+		</Action>
+
+		<Action>
+			<Name>Play</Name>
+			<Event>PlayL1</Event>
+			<Trigger>9</Trigger>
+		</Action>
+
+	</Actions>
+	<Nodes>
+
+	</Nodes>
+</data>

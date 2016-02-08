@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>LoseScreen</Name>
+	<X_Position>0</X_Position>
+	<Y_Position>0</Y_Position>
+	<Z_Position>0</Z_Position>
+	<Width>128</Width>
+	<Height>160</Height>
+	<Default_Action>Play</Default_Action>
+	<BackgroundMusic></BackgroundMusic>
+		
+	<Asset>
+		<URL>./Assets/Common/End/Frames.xml</URL>
+	</Asset>
+
+	<Actions>
+		<Action>
+			<Name>Play</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>70</End_Frame>
+			<Event>Menu</Event>
+		</Action>
+	</Actions>
+</data>

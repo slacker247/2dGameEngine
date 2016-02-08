@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>ahma2</Name>
+	<X_Position>18</X_Position>
+	<Y_Position>88</Y_Position>
+	<Z_Position>12</Z_Position>
+	<Width>31</Width>
+	<Height>29</Height>
+	<Default_Action>Standing</Default_Action>
+
+	<Asset>
+		<URL>./Assets/Level_1/Ahma/Frames.xml</URL>
+	</Asset>
+
+	<Actions>
+		<Action>
+			<Name>Standing</Name>
+			<Start_Frame>41</Start_Frame>
+			<End_Frame>41</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+		<Action>
+			<Name>Walking</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>40</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+	</Actions>
+</data>

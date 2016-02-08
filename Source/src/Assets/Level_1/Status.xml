@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Gauge1</Name>
+	<X_Position>9</X_Position>
+	<Y_Position>1</Y_Position>
+	<Z_Position>500</Z_Position>
+	<Width>80</Width>
+	<Height>10</Height>
+	<Default_Action>Green</Default_Action>
+
+	<Assets>
+		<URL>./Assets/Level_1/Gauge/Frames.xml</URL>
+	</Assets>
+
+	<Drawables>
+		<Draw>
+			<Name>Needle</Name>
+			<Width>1</Width>
+			<Height>9</Height>
+			<Color>0:0:0</Color>
+			<X_Position>0</X_Position>
+			<Y_Position>0</Y_Position>
+			<Z_Position>503</Z_Position>
+		</Draw>
+	</Drawables>
+
+	<Actions>
+		<Action>
+			<Name>Green</Name>
+			<Start_Frame>1</Start_Frame>
+			<End_Frame>1</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+		<Action>
+			<Name>Yellow</Name>
+			<Start_Frame>2</Start_Frame>
+			<End_Frame>2</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+		<Action>
+			<Name>Red</Name>
+			<Start_Frame>3</Start_Frame>
+			<End_Frame>3</End_Frame>
+			<Trigger></Trigger>
+		</Action>
+	</Actions>
+</data>

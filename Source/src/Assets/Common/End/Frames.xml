@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- Put a ? for where the number increments, the 
+	number increments in 1000 for example 0001, 0100, etc. -->
+	<FileName>./Assets/Common/End/LoseScreen_?.png</FileName>
+	<StartFrame>1</StartFrame>
+	<EndFrame>70</EndFrame>
+
+	<Keys>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30</Keys>
+</data>

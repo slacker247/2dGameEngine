@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Zone7</Name>
+	<X_Position>63</X_Position>
+	<Y_Position>87</Y_Position>
+	<Z_Position>1100</Z_Position>
+	<Width>62</Width>
+	<Height>33</Height>
+	<Wall>1</Wall>
+
+	<HitBoxes>
+		<HitBox>
+			<Name>Zone</Name>
+			<x>1</x>
+			<y>1</y>
+			<Height>-1</Height>
+			<Width>-1</Width>
+		</HitBox>
+		<HitBox>
+			<Name>Floor</Name>
+			<x>1</x>
+			<y>30</y>
+			<Height>-30</Height>
+			<Width>0</Width>
+		</HitBox>
+	</HitBoxes>
+</data>

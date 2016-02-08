@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Title>Mario</Title>
+	<return_action>ESCAPE</return_action>
+	<pause_game>p</pause_game>
+
+	<default>Menu</default>
+	<states>
+
+		<state>
+			<type>MenuState</type>
+			<name>Menu</name>
+			<resources>./Assets/Menu/menu.xml</resources>
+		</state>
+		<state>
+			<type>PlayState</type>
+			<name>PlayL1</name>
+			<resources>./Assets/Level_1/play.xml</resources>
+		</state>
+
+		<state>
+			<type>Cinematic</type>
+			<name>LoseScreen</name>
+			<resources>./Assets/Common/end.xml</resources>
+		</state>
+	</states>
+</data>

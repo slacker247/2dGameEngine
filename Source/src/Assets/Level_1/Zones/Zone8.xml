@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>Zone8</Name>
+	<X_Position>63</X_Position>
+	<Y_Position>119</Y_Position>
+	<Z_Position>1100</Z_Position>
+	<Width>62</Width>
+	<Height>33</Height>
+
+	<HitBoxes>
+		<HitBox>
+			<Name>Zone</Name>
+			<x>1</x>
+			<y>1</y>
+			<Height>-1</Height>
+			<Width>-1</Width>
+		</HitBox>
+		<HitBox>
+			<Name>Floor</Name>
+			<x>1</x>
+			<y>28</y>
+			<Height>-28</Height>
+			<Width>0</Width>
+		</HitBox>
+	</HitBoxes>
+</data>

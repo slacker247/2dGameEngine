@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- Put a ? for where the number increments, the 
+	number increments in 1000 for example 0001, 0100, etc. -->
+	<FileName>./Assets/Menu/Frames/Menu_?.png</FileName>
+	<StartFrame>1</StartFrame>
+	<EndFrame>40</EndFrame>
+
+	<Keys>1,20</Keys>
+</data>
